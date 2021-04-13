@@ -1,4 +1,4 @@
-# ATX headings only
+# ATX headings only (hash prefix)
 
 ## paragraphs
 
@@ -16,6 +16,9 @@ are added with a backslash
 
 - for nested lists,
   - use 4 spaces or one tab
+
+- [ ] empty checkboxes have a space
+- [x] checked boxes use a lower-case x
 
 ## codeblocks
 
@@ -35,21 +38,21 @@ _emphasis_ text is surrounded by 1 underline
 
 ## thematic breaks
 
----
+***
 
-thematic breaks are three or more asterisks
+thematic breaks are three or more asterisks `***`
 
 ## blockquotes
 
-> quotes start with one of these
+> quotes start with a `>`
 >
 > > quotes can be nested
 
 ## links
 
-links are text in square brackets followed by a url in parens:
+links are text in square brackets followed by a url in parens, and an optional title in double quotes:
 
-[link text](https://url)
+[link text](https://url "title")
 
 ### autolinks
 
